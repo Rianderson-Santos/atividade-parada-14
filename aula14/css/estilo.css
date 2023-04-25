@@ -1,0 +1,72 @@
+body{
+    background-image: url("../img/bitcoin.jpg");
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    width: 100%;
+}
+
+#header{
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(18, 22, 152, 0.518);
+    color: white;
+}
+#header h1{
+    text-transform:  uppercase;
+    border-bottom: 1px solid white;
+}
+#main{
+    margin: auto;
+    font-size: 20px;
+    width: 50%;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+}
+#content{
+    display: flex;
+}
+.box{
+    padding: 10px;
+}
+.box h2{
+    border-bottom: 1px solid black;
+}
+#footer{
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 10px;
+}
+@media screen and (max-width: 1440px){
+    #main{
+        width: 85%;
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width: 780px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: none;
+    }
+    #main{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        font-size: 16px;
+    }
+    #content{
+        display: block;
+    }
+    
+    
+
+}
+    
+
